@@ -1,0 +1,88 @@
+.parent-div {
+  width: 700px;
+  background-color: #f4f4f4;
+  margin: auto;
+  border: 0.2px solid gray;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.space-top {
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-right: 9px solid red;
+  padding: 7px;
+}
+
+.file-input {
+  border: 2px solid darkblue;
+}
+
+.form-div {
+  padding: 10px;
+  padding-top: 40px;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="email"],
+input[type="file"],
+input[type="date"],
+input[type="time"],
+input[type="select"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 7px;
+  transition: transform 0.2s ease-in-out;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
